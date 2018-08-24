@@ -1,3 +1,6 @@
 [submodule ".vim/pack/sbell/start/badwolf"]
 	path = .vim/pack/sbell/start/badwolf
 	url = git@github.com:sjl/badwolf.git
+[submodule ".vim/pack/sbell/start/nerdtree"]
+	path = .vim/pack/sbell/start/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
