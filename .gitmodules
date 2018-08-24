@@ -1,0 +1,3 @@
+[submodule ".vim/pack/sbell/start/badwolf"]
+	path = .vim/pack/sbell/start/badwolf
+	url = git@github.com:sjl/badwolf.git
