@@ -4,3 +4,6 @@
 [submodule ".vim/pack/sbell/start/nerdtree"]
 	path = .vim/pack/sbell/start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule ".vim/pack/sbell/start/ale"]
+	path = .vim/pack/sbell/start/ale
+	url = git@github.com:w0rp/ale.git
