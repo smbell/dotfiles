@@ -7,3 +7,6 @@
 [submodule ".vim/pack/sbell/start/ale"]
 	path = .vim/pack/sbell/start/ale
 	url = git@github.com:w0rp/ale.git
+[submodule ".vim/pack/sbell/start/gundo"]
+	path = .vim/pack/sbell/start/gundo
+	url = http://github.com/sjl/gundo.vim.git
