@@ -8,6 +8,7 @@ set softtabstop=4
 set expandtab
 
 set number " show line numbers
+set relativenumber " shows line number relative to current line
 set cursorline " indicates what line the cursor is on
 
 filetype indent on
@@ -21,3 +22,5 @@ set showmatch " Highlight matching {([...
 
 set incsearch " make search incremental
 set hlsearch " highlight search matches
+
+set noswapfile " disable swap files
