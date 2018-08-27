@@ -10,3 +10,6 @@
 [submodule ".vim/pack/sbell/start/gundo"]
 	path = .vim/pack/sbell/start/gundo
 	url = http://github.com/sjl/gundo.vim.git
+[submodule ".vim/pack/sbell/start/typescript-vim"]
+	path = .vim/pack/sbell/start/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git

@@ -1,8 +1,10 @@
+set nocompatible " ensure vim does not go into vi compatability mode
 let mapleader=","
 
 syntax enable " enable syntax processing
 
 " setup spaces and tabs
+set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 set expandtab
@@ -24,3 +26,5 @@ set incsearch " make search incremental
 set hlsearch " highlight search matches
 
 set noswapfile " disable swap files
+
+set hid " hide closed buffers instead of closing
