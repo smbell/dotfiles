@@ -13,3 +13,6 @@
 [submodule ".vim/pack/sbell/start/typescript-vim"]
 	path = .vim/pack/sbell/start/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
+[submodule ".vim/pack/sbell/start/ctrlp.vim"]
+	path = .vim/pack/sbell/start/ctrlp.vim
+	url = git@github.com:ctrlpvim/ctrlp.vim.git

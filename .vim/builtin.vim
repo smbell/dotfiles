@@ -28,3 +28,5 @@ set hlsearch " highlight search matches
 set noswapfile " disable swap files
 
 set hid " hide closed buffers instead of closing
+
+set fillchars=vert:│,fold:─ " Change the split characters for a cleaner look.
