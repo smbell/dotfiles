@@ -1,4 +1,6 @@
-colorscheme badwolf
+colorscheme gruvbox
+
+set background=dark
 
 " Allow transparent background
 hi Normal guibg=NONE ctermbg=NONE
