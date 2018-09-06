@@ -6,3 +6,6 @@ set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
 hi NonText guibg=NONE ctermbg=NONE
+
+" Spell check matches are underlined
+hi SpellBad cterm=underline
