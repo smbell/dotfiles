@@ -34,3 +34,5 @@ set fillchars=vert:│,fold:─ " Change the split characters for a cleaner look
 set display+=lastline " Show as much of the last line as possible
 
 set formatoptions+=j " removes comment prefix when joining comment lines
+
+autocmd BufWritePre * %s/\s\+$//e
