@@ -17,6 +17,7 @@ filetype indent on
 
 set wildmode=longest,list " tab completion behavior
 set wildmenu
+set wildignore+=node_modules/**
 
 set lazyredraw " Less redraw
 
@@ -35,4 +36,20 @@ set display+=lastline " Show as much of the last line as possible
 
 set formatoptions+=j " removes comment prefix when joining comment lines
 
+set cc=120
+
 autocmd BufWritePre * %s/\s\+$//e
+
+" Window navigation
+tnoremap <C-h> <C-w>h
+tnoremap <C-j> <C-w>j
+tnoremap <C-k> <C-w>k
+tnoremap <C-l> <C-w>l
+tnoremap <C-n> <C-w>N
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+nnoremap <leader>t :term<cr><c-w>J<c-w>18-
