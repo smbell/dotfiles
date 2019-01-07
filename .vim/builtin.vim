@@ -52,4 +52,4 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-nnoremap <leader>t :term<cr><c-w>J<c-w>18-
+nnoremap <leader>t :term<cr><c-w>J<c-w>20_
