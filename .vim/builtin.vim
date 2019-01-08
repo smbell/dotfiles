@@ -38,8 +38,6 @@ set formatoptions+=j " removes comment prefix when joining comment lines
 
 set cc=120
 
-autocmd BufWritePre * %s/\s\+$//e
-
 " Window navigation
 tnoremap <C-h> <C-w>h
 tnoremap <C-j> <C-w>j
