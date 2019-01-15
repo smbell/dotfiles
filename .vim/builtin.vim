@@ -12,12 +12,14 @@ set expandtab
 set number " show line numbers
 set relativenumber " shows line number relative to current line
 set cursorline " indicates what line the cursor is on
+set cursorcolumn " indicates what column the cursor is on
 
 filetype indent on
 
 set wildmode=longest,list " tab completion behavior
 set wildmenu
-set wildignore+=node_modules/**
+set wildignore+=*/node_modules*/**
+set wildignore+=*/dist/*
 
 set lazyredraw " Less redraw
 
