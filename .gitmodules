@@ -25,3 +25,6 @@
 [submodule ".vim/pack/sbell/start/lightline"]
 	path = .vim/pack/sbell/start/lightline
 	url = git@github.com:itchyny/lightline.vim.git
+[submodule ".vim/pack/sbell/start/vim-gitgutter"]
+	path = .vim/pack/sbell/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
