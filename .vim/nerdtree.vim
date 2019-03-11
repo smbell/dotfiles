@@ -3,6 +3,7 @@ let NERDTreeShowHidden=1
 let g:NERDTreeWinSize=70
 let g:NERDTreeQuitOnOpen=1
 
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nf :NERDTreeFind<cr>
+nnoremap <leader>nn :NERDTreeToggle<cr>
+nnoremap <leader>nf :NERDTreeFind<cr>
 
+nnoremap <leader>e :e.<cr>
