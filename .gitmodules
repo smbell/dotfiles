@@ -10,9 +10,6 @@
 [submodule ".vim/pack/sbell/start/gundo"]
 	path = .vim/pack/sbell/start/gundo
 	url = http://github.com/sjl/gundo.vim.git
-[submodule ".vim/pack/sbell/start/typescript-vim"]
-	path = .vim/pack/sbell/start/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim.git
 [submodule ".vim/pack/sbell/start/ctrlp.vim"]
 	path = .vim/pack/sbell/start/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
@@ -28,3 +25,6 @@
 [submodule ".vim/pack/sbell/start/vim-gitgutter"]
 	path = .vim/pack/sbell/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule ".vim/pack/sbell/start/yats"]
+	path = .vim/pack/sbell/start/yats
+	url = git@github.com:HerringtonDarkholme/yats.vim.git
