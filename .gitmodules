@@ -28,3 +28,9 @@
 [submodule ".vim/pack/sbell/start/yats"]
 	path = .vim/pack/sbell/start/yats
 	url = git@github.com:HerringtonDarkholme/yats.vim.git
+[submodule ".vim/pack/sbell/start/vimwiki"]
+	path = .vim/pack/sbell/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
+[submodule ".vim/pack/sbell/start/rust.vim"]
+	path = .vim/pack/sbell/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim

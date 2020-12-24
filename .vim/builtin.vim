@@ -1,4 +1,3 @@
-set nocompatible " ensure vim does not go into vi compatability mode
 let mapleader=","
 
 syntax enable " enable syntax processing
@@ -14,7 +13,8 @@ set relativenumber " shows line number relative to current line
 set cursorline " indicates what line the cursor is on
 set cursorcolumn " indicates what column the cursor is on
 
-filetype indent on
+set autoindent
+filetype plugin indent on
 
 set wildmode=longest,list " tab completion behavior
 set wildmenu
