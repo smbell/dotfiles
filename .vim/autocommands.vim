@@ -1,3 +1,5 @@
+au BufNewFile,BufRead Jenkinsfile setf groovy
+
 augroup on_save
     autocmd!
     autocmd BufWritePre * %s/\s\+$//e
