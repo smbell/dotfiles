@@ -34,3 +34,12 @@
 [submodule ".vim/pack/sbell/start/rust.vim"]
 	path = .vim/pack/sbell/start/rust.vim
 	url = https://github.com/rust-lang/rust.vim
+[submodule ".vim/pack/sbell/start/kotlin-vim"]
+	path = .vim/pack/sbell/start/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim.git
+[submodule ".vim/pack/sbell/start/vim-velocity"]
+	path = .vim/pack/sbell/start/vim-velocity
+	url = git@github.com:lepture/vim-velocity.git
+[submodule ".vim/pack/sbell/start/nord-vim"]
+	path = .vim/pack/sbell/start/nord-vim
+	url = git@github.com:arcticicestudio/nord-vim.git

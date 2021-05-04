@@ -16,6 +16,6 @@ nnoremap K :ALEHover<CR>
 
 nnoremap <silent> gr :ALEFindReferences<CR>
 
-let g:ale_linters = {'rust': ['analyzer']}
-let g:ale_fixers = {'rust': ['rustfmt']}
+let g:ale_linters = {'rust': ['analyzer'], 'elm': ['elm_ls']}
+let g:ale_fixers = {'rust': ['rustfmt'], 'elm': ['elm-format']}
 let g:ale_fix_on_save = 1
